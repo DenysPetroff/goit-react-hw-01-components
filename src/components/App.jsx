@@ -17,6 +17,7 @@ export const App = () => {
     <Layout>
       <Profile items={user} />
       <Statistics title="Upload stats" stats={data} />
+      <GlobalStyle />
       </Layout>
   );
 };

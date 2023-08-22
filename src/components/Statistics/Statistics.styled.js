@@ -1,11 +1,5 @@
 import styled from 'styled-components';
 
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, 0)}`;
-}
-
 export const StatisticsSection = styled.section`
          padding: 10px;
   background-color: #5874af;

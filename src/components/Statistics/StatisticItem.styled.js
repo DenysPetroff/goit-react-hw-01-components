@@ -9,7 +9,7 @@ function getRandomHexColor() {
 
 
 export const ListItem = styled.li`
-    margin-top: 20px;
+    /* margin-top: 20px; */
   width: 100%;
   padding: 10px;
   border: 2px solid #ccc;
